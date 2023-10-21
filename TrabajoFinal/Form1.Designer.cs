@@ -57,15 +57,13 @@
             this.panel1.Controls.Add(this.menuStrip2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1012, 82);
+            this.panel1.Size = new System.Drawing.Size(675, 53);
             this.panel1.TabIndex = 0;
             // 
             // menuStrip2
             // 
             this.menuStrip2.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.menuStrip2.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStrip2.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.pacientesToolStripMenuItem1,
@@ -73,26 +71,27 @@
             this.practicasToolStripMenuItem});
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Size = new System.Drawing.Size(1012, 35);
+            this.menuStrip2.Padding = new System.Windows.Forms.Padding(4, 1, 0, 1);
+            this.menuStrip2.Size = new System.Drawing.Size(675, 24);
             this.menuStrip2.TabIndex = 1;
             this.menuStrip2.Text = "menuStrip2";
             // 
             // pacientesToolStripMenuItem1
             // 
             this.pacientesToolStripMenuItem1.Name = "pacientesToolStripMenuItem1";
-            this.pacientesToolStripMenuItem1.Size = new System.Drawing.Size(100, 29);
+            this.pacientesToolStripMenuItem1.Size = new System.Drawing.Size(69, 22);
             this.pacientesToolStripMenuItem1.Text = "Pacientes";
             // 
             // ingresosToolStripMenuItem1
             // 
             this.ingresosToolStripMenuItem1.Name = "ingresosToolStripMenuItem1";
-            this.ingresosToolStripMenuItem1.Size = new System.Drawing.Size(96, 29);
+            this.ingresosToolStripMenuItem1.Size = new System.Drawing.Size(63, 22);
             this.ingresosToolStripMenuItem1.Text = "Ingresos";
             // 
             // practicasToolStripMenuItem
             // 
             this.practicasToolStripMenuItem.Name = "practicasToolStripMenuItem";
-            this.practicasToolStripMenuItem.Size = new System.Drawing.Size(120, 29);
+            this.practicasToolStripMenuItem.Size = new System.Drawing.Size(80, 22);
             this.practicasToolStripMenuItem.Text = "Laboratorio";
             // 
             // panelbtnACS
@@ -102,38 +101,37 @@
             this.panelbtnACS.Controls.Add(this.btncancelar);
             this.panelbtnACS.Controls.Add(this.btnaceptar);
             this.panelbtnACS.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panelbtnACS.Location = new System.Drawing.Point(0, 601);
-            this.panelbtnACS.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panelbtnACS.Location = new System.Drawing.Point(0, 391);
             this.panelbtnACS.Name = "panelbtnACS";
-            this.panelbtnACS.Size = new System.Drawing.Size(1012, 91);
+            this.panelbtnACS.Size = new System.Drawing.Size(675, 59);
             this.panelbtnACS.TabIndex = 1;
             // 
             // btnsalir
             // 
-            this.btnsalir.Location = new System.Drawing.Point(858, 28);
-            this.btnsalir.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnsalir.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnsalir.Location = new System.Drawing.Point(572, 18);
             this.btnsalir.Name = "btnsalir";
-            this.btnsalir.Size = new System.Drawing.Size(112, 35);
+            this.btnsalir.Size = new System.Drawing.Size(75, 23);
             this.btnsalir.TabIndex = 3;
             this.btnsalir.Text = "Salir";
             this.btnsalir.UseVisualStyleBackColor = true;
             // 
             // btncancelar
             // 
-            this.btncancelar.Location = new System.Drawing.Point(722, 28);
-            this.btncancelar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btncancelar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btncancelar.Location = new System.Drawing.Point(481, 18);
             this.btncancelar.Name = "btncancelar";
-            this.btncancelar.Size = new System.Drawing.Size(112, 35);
+            this.btncancelar.Size = new System.Drawing.Size(75, 23);
             this.btncancelar.TabIndex = 2;
             this.btncancelar.Text = "Cancelar";
             this.btncancelar.UseVisualStyleBackColor = true;
             // 
             // btnaceptar
             // 
-            this.btnaceptar.Location = new System.Drawing.Point(579, 28);
-            this.btnaceptar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnaceptar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnaceptar.Location = new System.Drawing.Point(386, 18);
             this.btnaceptar.Name = "btnaceptar";
-            this.btnaceptar.Size = new System.Drawing.Size(112, 35);
+            this.btnaceptar.Size = new System.Drawing.Size(75, 23);
             this.btnaceptar.TabIndex = 1;
             this.btnaceptar.Text = "Aceptar";
             this.btnaceptar.UseVisualStyleBackColor = true;
@@ -145,28 +143,25 @@
             this.panelbtncrud.Controls.Add(this.btneliminar);
             this.panelbtncrud.Controls.Add(this.btnagregar);
             this.panelbtncrud.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panelbtncrud.Location = new System.Drawing.Point(0, 82);
-            this.panelbtncrud.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panelbtncrud.Location = new System.Drawing.Point(0, 53);
             this.panelbtncrud.Name = "panelbtncrud";
-            this.panelbtncrud.Size = new System.Drawing.Size(201, 519);
+            this.panelbtncrud.Size = new System.Drawing.Size(134, 338);
             this.panelbtncrud.TabIndex = 2;
             // 
             // btnmodificar
             // 
-            this.btnmodificar.Location = new System.Drawing.Point(18, 123);
-            this.btnmodificar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnmodificar.Location = new System.Drawing.Point(12, 80);
             this.btnmodificar.Name = "btnmodificar";
-            this.btnmodificar.Size = new System.Drawing.Size(112, 35);
+            this.btnmodificar.Size = new System.Drawing.Size(75, 23);
             this.btnmodificar.TabIndex = 2;
             this.btnmodificar.Text = "Modificar";
             this.btnmodificar.UseVisualStyleBackColor = true;
             // 
             // btneliminar
             // 
-            this.btneliminar.Location = new System.Drawing.Point(18, 195);
-            this.btneliminar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btneliminar.Location = new System.Drawing.Point(12, 127);
             this.btneliminar.Name = "btneliminar";
-            this.btneliminar.Size = new System.Drawing.Size(112, 35);
+            this.btneliminar.Size = new System.Drawing.Size(75, 23);
             this.btneliminar.TabIndex = 1;
             this.btneliminar.Text = "Eliminar";
             this.btneliminar.UseVisualStyleBackColor = true;
@@ -174,10 +169,9 @@
             // btnagregar
             // 
             this.btnagregar.BackColor = System.Drawing.Color.SkyBlue;
-            this.btnagregar.Location = new System.Drawing.Point(18, 46);
-            this.btnagregar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnagregar.Location = new System.Drawing.Point(12, 30);
             this.btnagregar.Name = "btnagregar";
-            this.btnagregar.Size = new System.Drawing.Size(112, 35);
+            this.btnagregar.Size = new System.Drawing.Size(75, 23);
             this.btnagregar.TabIndex = 0;
             this.btnagregar.Text = "Agregar";
             this.btnagregar.UseVisualStyleBackColor = false;
@@ -185,20 +179,18 @@
             // paneldatos
             // 
             this.paneldatos.Dock = System.Windows.Forms.DockStyle.Right;
-            this.paneldatos.Location = new System.Drawing.Point(811, 82);
-            this.paneldatos.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.paneldatos.Location = new System.Drawing.Point(506, 53);
             this.paneldatos.Name = "paneldatos";
-            this.paneldatos.Size = new System.Drawing.Size(201, 519);
+            this.paneldatos.Size = new System.Drawing.Size(169, 338);
             this.paneldatos.TabIndex = 3;
             // 
             // panelgrillas
             // 
             this.panelgrillas.Controls.Add(this.dataGridView1);
             this.panelgrillas.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelgrillas.Location = new System.Drawing.Point(201, 82);
-            this.panelgrillas.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panelgrillas.Location = new System.Drawing.Point(134, 53);
             this.panelgrillas.Name = "panelgrillas";
-            this.panelgrillas.Size = new System.Drawing.Size(610, 519);
+            this.panelgrillas.Size = new System.Drawing.Size(372, 338);
             this.panelgrillas.TabIndex = 4;
             // 
             // dataGridView1
@@ -206,23 +198,21 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.Size = new System.Drawing.Size(610, 519);
+            this.dataGridView1.Size = new System.Drawing.Size(372, 338);
             this.dataGridView1.TabIndex = 0;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1012, 692);
+            this.ClientSize = new System.Drawing.Size(675, 450);
             this.Controls.Add(this.panelgrillas);
             this.Controls.Add(this.paneldatos);
             this.Controls.Add(this.panelbtncrud);
             this.Controls.Add(this.panelbtnACS);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.Text = "Laboratorio";
             this.panel1.ResumeLayout(false);
