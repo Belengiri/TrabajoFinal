@@ -64,14 +64,18 @@
             // menuStrip2
             // 
             this.menuStrip2.BackColor = System.Drawing.SystemColors.ControlLight;
+
             this.menuStrip2.ImageScalingSize = new System.Drawing.Size(24, 24);
+
             this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.pacientesToolStripMenuItem1,
             this.ingresosToolStripMenuItem1,
             this.practicasToolStripMenuItem});
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
+
             this.menuStrip2.Padding = new System.Windows.Forms.Padding(4, 1, 0, 1);
+
             this.menuStrip2.Size = new System.Drawing.Size(675, 24);
             this.menuStrip2.TabIndex = 1;
             this.menuStrip2.Text = "menuStrip2";
@@ -79,19 +83,30 @@
             // pacientesToolStripMenuItem1
             // 
             this.pacientesToolStripMenuItem1.Name = "pacientesToolStripMenuItem1";
+
             this.pacientesToolStripMenuItem1.Size = new System.Drawing.Size(69, 22);
+            this.pacientesToolStripMenuItem1.Size = new System.Drawing.Size(69, 20);
+
             this.pacientesToolStripMenuItem1.Text = "Pacientes";
             // 
             // ingresosToolStripMenuItem1
             // 
             this.ingresosToolStripMenuItem1.Name = "ingresosToolStripMenuItem1";
+
             this.ingresosToolStripMenuItem1.Size = new System.Drawing.Size(63, 22);
+
+            this.ingresosToolStripMenuItem1.Size = new System.Drawing.Size(63, 20);
+
             this.ingresosToolStripMenuItem1.Text = "Ingresos";
             // 
             // practicasToolStripMenuItem
             // 
             this.practicasToolStripMenuItem.Name = "practicasToolStripMenuItem";
+
             this.practicasToolStripMenuItem.Size = new System.Drawing.Size(80, 22);
+
+            this.practicasToolStripMenuItem.Size = new System.Drawing.Size(80, 20);
+
             this.practicasToolStripMenuItem.Text = "Laboratorio";
             // 
             // panelbtnACS
@@ -108,7 +123,10 @@
             // 
             // btnsalir
             // 
+
             this.btnsalir.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+
+
             this.btnsalir.Location = new System.Drawing.Point(572, 18);
             this.btnsalir.Name = "btnsalir";
             this.btnsalir.Size = new System.Drawing.Size(75, 23);
@@ -118,7 +136,9 @@
             // 
             // btncancelar
             // 
+
             this.btncancelar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+
             this.btncancelar.Location = new System.Drawing.Point(481, 18);
             this.btncancelar.Name = "btncancelar";
             this.btncancelar.Size = new System.Drawing.Size(75, 23);
@@ -128,7 +148,9 @@
             // 
             // btnaceptar
             // 
+
             this.btnaceptar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+
             this.btnaceptar.Location = new System.Drawing.Point(386, 18);
             this.btnaceptar.Name = "btnaceptar";
             this.btnaceptar.Size = new System.Drawing.Size(75, 23);
@@ -168,20 +190,32 @@
             // 
             // btnagregar
             // 
+
             this.btnagregar.BackColor = System.Drawing.Color.SkyBlue;
+
             this.btnagregar.Location = new System.Drawing.Point(12, 30);
             this.btnagregar.Name = "btnagregar";
             this.btnagregar.Size = new System.Drawing.Size(75, 23);
             this.btnagregar.TabIndex = 0;
             this.btnagregar.Text = "Agregar";
+
             this.btnagregar.UseVisualStyleBackColor = false;
+
+            this.btnagregar.UseVisualStyleBackColor = true;
+
             // 
             // paneldatos
             // 
             this.paneldatos.Dock = System.Windows.Forms.DockStyle.Right;
+
             this.paneldatos.Location = new System.Drawing.Point(506, 53);
             this.paneldatos.Name = "paneldatos";
             this.paneldatos.Size = new System.Drawing.Size(169, 338);
+
+            this.paneldatos.Location = new System.Drawing.Point(541, 53);
+            this.paneldatos.Name = "paneldatos";
+            this.paneldatos.Size = new System.Drawing.Size(134, 338);
+
             this.paneldatos.TabIndex = 3;
             // 
             // panelgrillas
@@ -190,7 +224,10 @@
             this.panelgrillas.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelgrillas.Location = new System.Drawing.Point(134, 53);
             this.panelgrillas.Name = "panelgrillas";
+
             this.panelgrillas.Size = new System.Drawing.Size(372, 338);
+            this.panelgrillas.Size = new System.Drawing.Size(407, 338);
+
             this.panelgrillas.TabIndex = 4;
             // 
             // dataGridView1
@@ -199,8 +236,12 @@
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(0, 0);
             this.dataGridView1.Name = "dataGridView1";
+
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.Size = new System.Drawing.Size(372, 338);
+
+            this.dataGridView1.Size = new System.Drawing.Size(407, 338);
+
             this.dataGridView1.TabIndex = 0;
             // 
             // Form1
